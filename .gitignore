@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# models are downloaded on first run; face data is biometric -> never commit it
+models/
+data/
+logs/
+captures/
+*.npz
+*.onnx

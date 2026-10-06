@@ -1,0 +1,4 @@
+# optional: proper Persian/Arabic/Unicode names on screen
+pillow
+arabic-reshaper
+python-bidi
