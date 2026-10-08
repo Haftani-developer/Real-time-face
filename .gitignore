@@ -1,4 +1,62 @@
+# ===== Python =====
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ===== Virtual Environment =====
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ===== Testing / Coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== پروژه FaceSentinel =====
+captures/
+*.log
+models/*.weights
+models/*.pb
+models/*.h5
+models/*.onnx
+models/*.tflite
+models/*.caffemodel
+
+# داده‌های سنگین
+data/*.jpg
+data/*.png
+data/*.mp4
+data/*.avi
+!data/.gitkeep
+!data/samples/__pycache__/
 *.py[cod]
 *.egg-info/
 build/
@@ -14,3 +72,4 @@ logs/
 captures/
 *.npz
 *.onnx
+
